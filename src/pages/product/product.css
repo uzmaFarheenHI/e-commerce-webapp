@@ -1,6 +1,7 @@
 .product .grid {
     grid-template-columns: 1fr 2fr;
-    /* background-color: #070303; */
+    background-color: #212123;
+    color:white;
     gap: 30px;
 }
 

@@ -9,12 +9,13 @@
 }
 
 .cartItem {
-    background-color: #fff;
+    background-color: #212123;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    color:white;
 }
 
 .item {
@@ -58,7 +59,8 @@
 
 .payment {
     align-self: start;
-    background-color: #fff;
+    color:white;
+    background-color: #212123;
 }
 
 .summary {
@@ -70,6 +72,7 @@
     display: inline !important;
     height: 40px;
     width: 40px;
+    color:white;
     border: solid 1px #f2f2f3;
     border-radius: 5px;
     -webkit-border-radius: 5px;

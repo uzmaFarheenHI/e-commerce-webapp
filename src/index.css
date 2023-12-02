@@ -10,7 +10,7 @@ body {
   font-family: "Raleway", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f9fafb;
+  background-color: #dcdcdc;
   line-height: 1.6rem;
 }
 
@@ -49,6 +49,8 @@ img {
   height: auto;
   width: auto;
   padding: 20px;
+  border:1px solid #af9e9e;
+  color:#080303;
   /* margin: 20px; */
   box-shadow: rgb(189, 189, 192) 0px 15px 15px -5px;
   border-radius: 20px;
@@ -413,7 +415,17 @@ img {
 }
 
 .titleLink {
-  color: #4a4a4a;
+  color:#4a4a4a;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.cartTitleLink{
+  color: white;
   text-decoration: none;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
